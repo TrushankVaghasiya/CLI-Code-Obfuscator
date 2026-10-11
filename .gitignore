@@ -1,0 +1,19 @@
+
+# CMake build artifacts
+build/
+cmake-build-*/
+
+# Visual Studio files
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.user
+
+# Compiled binaries and libraries
+*.exe
+*.obj
+*.lib
+*.dll
+
+# Temporary files
+*.tmp
