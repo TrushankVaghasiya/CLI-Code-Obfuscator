@@ -1,7 +1,9 @@
 
 #include "cli.hpp"
 #include "validator.hpp"
-
+#include "parser.hpp"
+#include "identifier_analyzer.hpp"
+#include "transformer.hpp"
 #include <CLI/CLI.hpp>
 #include <iostream>
 #include <string>
@@ -32,7 +34,32 @@ int main(int argc, char* argv[]) {
     std::cout << "[INFO] Output: " << options.outputPath << '\n';
     std::cout << "[INFO] Level:  " << options.level << '\n';
     std::cout << "[INFO] Validation successful.\n";
-    std::cout << "[INFO] Obfuscation pipeline is not implemented yet.\n";
+
+    if (!parseCppFile(options.inputPath, error)) {
+        std::cerr << "[ERROR] " << error << '\n';
+        return 3;
+    }
+
+    std::cout << "[INFO] Phase 3 parsing completed successfully.\n";
+
+    if (!analyzeIdentifiers(options.inputPath, error)) {
+        std::cerr << "[ERROR] " << error << '\n';
+        return 4;
+    }
+
+    std::cout << "[INFO] Identifier analysis completed.\n"; 
+
+    if (!transformCppFile(
+        options.inputPath,
+        options.outputPath,
+        options.level,
+        error)) { {
+        std::cerr << "[ERROR] " << error << '\n';
+        return 5;
+    }
+
+    std::cout << "[INFO] Transformation completed successfully.\n";
 
     return 0;
+}
 }

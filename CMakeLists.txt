@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.20)
 project(cpp_obfuscator
     VERSION 0.1.0
     DESCRIPTION "C++ Source Code Obfuscator CLI"
-    LANGUAGES CXX
+    LANGUAGES C CXX
 )
 
 set(CMAKE_CXX_STANDARD 20)
@@ -26,6 +26,9 @@ add_executable(obfuscator
     src/main.cpp
     src/cli.cpp
     src/validator.cpp
+    src/parser.cpp
+    src/identifier_analyzer.cpp
+    src/transformer.cpp
 )
 
 target_include_directories(obfuscator
@@ -36,6 +39,8 @@ target_include_directories(obfuscator
 target_link_libraries(obfuscator
     PRIVATE
         CLI11::CLI11
+        tree_sitter_runtime_lib
+        tree_sitter_cpp_grammar
 )
 
 
@@ -103,5 +108,75 @@ if(BUILD_TESTING)
         cli_same_input_output
         PROPERTIES WILL_FAIL TRUE
     )
+
+    add_test(
+    NAME transform_basic
+    COMMAND ${CMAKE_COMMAND}
+        "-DOBFUSCATOR=$<TARGET_FILE:obfuscator>"
+        "-DINPUT=${CMAKE_CURRENT_SOURCE_DIR}/tests/data/transform_basic.cpp"
+        "-DOUTPUT=${CMAKE_CURRENT_BINARY_DIR}/test-transform-basic.cpp"
+        -P "${CMAKE_CURRENT_SOURCE_DIR}/tests/check_transform_basic.cmake"
+    )
 endif()
+
+# Tree-sitter runtime and C++ grammar
+FetchContent_Declare(
+    tree_sitter_runtime
+    GIT_REPOSITORY https://github.com/tree-sitter/tree-sitter.git
+    GIT_TAG v0.25.10
+    GIT_SHALLOW TRUE
+)
+
+FetchContent_Declare(
+    tree_sitter_cpp
+    GIT_REPOSITORY https://github.com/tree-sitter/tree-sitter-cpp.git
+    GIT_TAG v0.23.4
+    GIT_SHALLOW TRUE
+)
+
+# Download the source repositories without adding their own
+# projects to our build.
+FetchContent_GetProperties(tree_sitter_runtime)
+if(NOT tree_sitter_runtime_POPULATED)
+    FetchContent_Populate(tree_sitter_runtime)
+endif()
+
+FetchContent_GetProperties(tree_sitter_cpp)
+if(NOT tree_sitter_cpp_POPULATED)
+    FetchContent_Populate(tree_sitter_cpp)
+endif()
+
+# Build the Tree-sitter runtime.
+add_library(tree_sitter_runtime_lib STATIC
+    "${tree_sitter_runtime_SOURCE_DIR}/lib/src/lib.c"
+)
+
+target_include_directories(tree_sitter_runtime_lib
+    PUBLIC
+        "${tree_sitter_runtime_SOURCE_DIR}/lib/include"
+    PRIVATE
+        "${tree_sitter_runtime_SOURCE_DIR}/lib/src"
+)
+
+set_target_properties(tree_sitter_runtime_lib PROPERTIES
+    C_STANDARD 11
+    C_STANDARD_REQUIRED ON
+)
+
+# Build the generated C++ grammar and its external scanner.
+add_library(tree_sitter_cpp_grammar STATIC
+    "${tree_sitter_cpp_SOURCE_DIR}/src/parser.c"
+    "${tree_sitter_cpp_SOURCE_DIR}/src/scanner.c"
+)
+
+target_include_directories(tree_sitter_cpp_grammar
+    PRIVATE
+        "${tree_sitter_runtime_SOURCE_DIR}/lib/include"
+        "${tree_sitter_cpp_SOURCE_DIR}/src"
+)
+
+set_target_properties(tree_sitter_cpp_grammar PROPERTIES
+    C_STANDARD 11
+    C_STANDARD_REQUIRED ON
+)
 
