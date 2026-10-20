@@ -117,6 +117,40 @@ if(BUILD_TESTING)
         "-DOUTPUT=${CMAKE_CURRENT_BINARY_DIR}/test-transform-basic.cpp"
         -P "${CMAKE_CURRENT_SOURCE_DIR}/tests/check_transform_basic.cmake"
     )
+
+    
+add_test(
+    NAME level1_preserves_comments
+    COMMAND ${CMAKE_COMMAND}
+        "-DOBFUSCATOR=$<TARGET_FILE:obfuscator>"
+        "-DINPUT=${CMAKE_CURRENT_SOURCE_DIR}/tests/data/comments_strings.cpp"
+        "-DOUTPUT=${CMAKE_CURRENT_BINARY_DIR}/test-level1.cpp"
+        -P "${CMAKE_CURRENT_SOURCE_DIR}/tests/check_level1_comments.cmake"
+)
+
+
+add_test(
+    NAME transform_shadowing
+    COMMAND ${CMAKE_COMMAND}
+        "-DOBFUSCATOR=$<TARGET_FILE:obfuscator>"
+        "-DINPUT=${CMAKE_CURRENT_SOURCE_DIR}/tests/data/shadowing.cpp"
+        "-DOUTPUT=${CMAKE_CURRENT_BINARY_DIR}/shadowing-test.cpp"
+        "-DCOMPILER=g++"
+        -P "${CMAKE_CURRENT_SOURCE_DIR}/tests/check_shadowing.cmake"
+)
+
+
+add_test(
+    NAME transform_empty_input
+    COMMAND ${CMAKE_COMMAND}
+        "-DOBFUSCATOR=$<TARGET_FILE:obfuscator>"
+        "-DINPUT=${CMAKE_CURRENT_SOURCE_DIR}/tests/data/empty.cpp"
+        "-DOUTPUT=${CMAKE_CURRENT_BINARY_DIR}/empty-output.cpp"
+        -P "${CMAKE_CURRENT_SOURCE_DIR}/tests/check_empty_input.cmake"
+)
+
+
+
 endif()
 
 # Tree-sitter runtime and C++ grammar

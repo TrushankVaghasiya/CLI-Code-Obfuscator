@@ -1,0 +1,14 @@
+# Target labels
+ tree_sitter_cpp-populate
+# Source files and their labels
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/tree_sitter_cpp-populate
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/4268431e6c37c78e45cefa8fb63ffa1b/tree_sitter_cpp-populate.rule
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/5a3e44e83b909561c96618c447bc9950/tree_sitter_cpp-populate-complete.rule
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/9eafd2a4323ee1a7b47d2120768634ab/tree_sitter_cpp-populate-build.rule
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/9eafd2a4323ee1a7b47d2120768634ab/tree_sitter_cpp-populate-configure.rule
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/9eafd2a4323ee1a7b47d2120768634ab/tree_sitter_cpp-populate-download.rule
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/9eafd2a4323ee1a7b47d2120768634ab/tree_sitter_cpp-populate-install.rule
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/9eafd2a4323ee1a7b47d2120768634ab/tree_sitter_cpp-populate-mkdir.rule
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/9eafd2a4323ee1a7b47d2120768634ab/tree_sitter_cpp-populate-patch.rule
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/9eafd2a4323ee1a7b47d2120768634ab/tree_sitter_cpp-populate-test.rule
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/9eafd2a4323ee1a7b47d2120768634ab/tree_sitter_cpp-populate-update.rule

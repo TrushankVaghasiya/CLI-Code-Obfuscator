@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_runtime-subbuild\CMakeFiles\5f62bc5c1b9947091c13c5f6a4a56c01\tree_sitter_runtime-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_runtime-subbuild\CMakeFiles\5f62bc5c1b9947091c13c5f6a4a56c01\tree_sitter_runtime-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_runtime-subbuild\CMakeFiles\5f62bc5c1b9947091c13c5f6a4a56c01\tree_sitter_runtime-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_runtime-subbuild\CMakeFiles\5f62bc5c1b9947091c13c5f6a4a56c01\tree_sitter_runtime-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_runtime-subbuild\CMakeFiles\5f62bc5c1b9947091c13c5f6a4a56c01\tree_sitter_runtime-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_runtime-subbuild\CMakeFiles\5f62bc5c1b9947091c13c5f6a4a56c01\tree_sitter_runtime-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_runtime-subbuild\CMakeFiles\5f62bc5c1b9947091c13c5f6a4a56c01\tree_sitter_runtime-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_runtime-subbuild\CMakeFiles\5f62bc5c1b9947091c13c5f6a4a56c01\tree_sitter_runtime-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_runtime-subbuild\CMakeFiles\00aca68bf628c19ac55c3df2843b9c16\tree_sitter_runtime-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_runtime-subbuild\CMakeFiles\43a523a08df939c8a0aa12a70e5c42f1\tree_sitter_runtime-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_runtime-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_runtime-subbuild\CMakeFiles\tree_sitter_runtime-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D758246D-4329-334F-A1E7-9CFABF497C77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

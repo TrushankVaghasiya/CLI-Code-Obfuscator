@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/cmake_install.cmake",
+		"D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/cli11-build/cmake_install.cmake",
+		"D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/cli11-build/fuzz/cmake_install.cmake",
+		"D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/cli11-build/src/cmake_install.cmake",
+		"D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/cli11-build/single-include/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/GNUInstallDirs.cmake
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/cli11-src/CMakeLists.txt
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/cli11-src/cmake/CLI11Warnings.cmake
