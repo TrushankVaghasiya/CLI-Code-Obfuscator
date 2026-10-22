@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/tree_sitter_cpp-populate"
+		},
+		{
+			"file" : "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/4268431e6c37c78e45cefa8fb63ffa1b/tree_sitter_cpp-populate.rule"
+		},
+		{
+			"file" : "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/5a3e44e83b909561c96618c447bc9950/tree_sitter_cpp-populate-complete.rule"
+		},
+		{
+			"file" : "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/9eafd2a4323ee1a7b47d2120768634ab/tree_sitter_cpp-populate-build.rule"
+		},
+		{
+			"file" : "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/9eafd2a4323ee1a7b47d2120768634ab/tree_sitter_cpp-populate-configure.rule"
+		},
+		{
+			"file" : "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/9eafd2a4323ee1a7b47d2120768634ab/tree_sitter_cpp-populate-download.rule"
+		},
+		{
+			"file" : "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/9eafd2a4323ee1a7b47d2120768634ab/tree_sitter_cpp-populate-install.rule"
+		},
+		{
+			"file" : "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/9eafd2a4323ee1a7b47d2120768634ab/tree_sitter_cpp-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/9eafd2a4323ee1a7b47d2120768634ab/tree_sitter_cpp-populate-patch.rule"
+		},
+		{
+			"file" : "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/9eafd2a4323ee1a7b47d2120768634ab/tree_sitter_cpp-populate-test.rule"
+		},
+		{
+			"file" : "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/9eafd2a4323ee1a7b47d2120768634ab/tree_sitter_cpp-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tree_sitter_cpp-populate"
+		],
+		"name" : "tree_sitter_cpp-populate"
+	}
+}

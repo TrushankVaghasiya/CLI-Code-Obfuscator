@@ -1,0 +1,10 @@
+^D:\TIRTH\OOPS PROJECT\CLI-CODE-OBFUSCATOR\_B\_DEPS\TREE_SITTER_CPP-SUBBUILD\CMAKEFILES\4268431E6C37C78E45CEFA8FB63FFA1B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild" "-BD:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/tree_sitter_cpp-populate.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

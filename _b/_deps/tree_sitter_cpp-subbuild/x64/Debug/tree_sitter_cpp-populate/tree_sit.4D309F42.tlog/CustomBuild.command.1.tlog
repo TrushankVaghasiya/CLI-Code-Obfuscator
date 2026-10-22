@@ -1,0 +1,150 @@
+^D:\TIRTH\OOPS PROJECT\CLI-CODE-OBFUSCATOR\_B\_DEPS\TREE_SITTER_CPP-SUBBUILD\CMAKEFILES\9EAFD2A4323EE1A7B47D2120768634AB\TREE_SITTER_CPP-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/tree_sitter_cpp-populate-prefix/tmp/tree_sitter_cpp-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/tree_sitter_cpp-populate-prefix/src/tree_sitter_cpp-populate-stamp/Debug/tree_sitter_cpp-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\TIRTH\OOPS PROJECT\CLI-CODE-OBFUSCATOR\_B\_DEPS\TREE_SITTER_CPP-SUBBUILD\CMAKEFILES\9EAFD2A4323EE1A7B47D2120768634AB\TREE_SITTER_CPP-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/tree_sitter_cpp-populate-prefix/tmp/tree_sitter_cpp-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/tree_sitter_cpp-populate-prefix/src/tree_sitter_cpp-populate-stamp/Debug/tree_sitter_cpp-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\TIRTH\OOPS PROJECT\CLI-CODE-OBFUSCATOR\_B\_DEPS\TREE_SITTER_CPP-SUBBUILD\CMAKEFILES\9EAFD2A4323EE1A7B47D2120768634AB\TREE_SITTER_CPP-POPULATE-UPDATE.RULE
+setlocal
+cd "D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_cpp-src"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/tree_sitter_cpp-populate-prefix/tmp/tree_sitter_cpp-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\TIRTH\OOPS PROJECT\CLI-CODE-OBFUSCATOR\_B\_DEPS\TREE_SITTER_CPP-SUBBUILD\CMAKEFILES\9EAFD2A4323EE1A7B47D2120768634AB\TREE_SITTER_CPP-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/tree_sitter_cpp-populate-prefix/src/tree_sitter_cpp-populate-stamp/Debug/tree_sitter_cpp-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\TIRTH\OOPS PROJECT\CLI-CODE-OBFUSCATOR\_B\_DEPS\TREE_SITTER_CPP-SUBBUILD\CMAKEFILES\9EAFD2A4323EE1A7B47D2120768634AB\TREE_SITTER_CPP-POPULATE-CONFIGURE.RULE
+setlocal
+cd "D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_cpp-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/tree_sitter_cpp-populate-prefix/src/tree_sitter_cpp-populate-stamp/Debug/tree_sitter_cpp-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\TIRTH\OOPS PROJECT\CLI-CODE-OBFUSCATOR\_B\_DEPS\TREE_SITTER_CPP-SUBBUILD\CMAKEFILES\9EAFD2A4323EE1A7B47D2120768634AB\TREE_SITTER_CPP-POPULATE-BUILD.RULE
+setlocal
+cd "D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_cpp-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/tree_sitter_cpp-populate-prefix/src/tree_sitter_cpp-populate-stamp/Debug/tree_sitter_cpp-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\TIRTH\OOPS PROJECT\CLI-CODE-OBFUSCATOR\_B\_DEPS\TREE_SITTER_CPP-SUBBUILD\CMAKEFILES\9EAFD2A4323EE1A7B47D2120768634AB\TREE_SITTER_CPP-POPULATE-INSTALL.RULE
+setlocal
+cd "D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_cpp-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/tree_sitter_cpp-populate-prefix/src/tree_sitter_cpp-populate-stamp/Debug/tree_sitter_cpp-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\TIRTH\OOPS PROJECT\CLI-CODE-OBFUSCATOR\_B\_DEPS\TREE_SITTER_CPP-SUBBUILD\CMAKEFILES\9EAFD2A4323EE1A7B47D2120768634AB\TREE_SITTER_CPP-POPULATE-TEST.RULE
+setlocal
+cd "D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\tree_sitter_cpp-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/tree_sitter_cpp-populate-prefix/src/tree_sitter_cpp-populate-stamp/Debug/tree_sitter_cpp-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\TIRTH\OOPS PROJECT\CLI-CODE-OBFUSCATOR\_B\_DEPS\TREE_SITTER_CPP-SUBBUILD\CMAKEFILES\5A3E44E83B909561C96618C447BC9950\TREE_SITTER_CPP-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/Debug/tree_sitter_cpp-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/tree_sitter_cpp-populate-prefix/src/tree_sitter_cpp-populate-stamp/Debug/tree_sitter_cpp-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\TIRTH\OOPS PROJECT\CLI-CODE-OBFUSCATOR\_B\_DEPS\TREE_SITTER_CPP-SUBBUILD\CMAKEFILES\4268431E6C37C78E45CEFA8FB63FFA1B\TREE_SITTER_CPP-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\TIRTH\OOPS PROJECT\CLI-CODE-OBFUSCATOR\_B\_DEPS\TREE_SITTER_CPP-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild" "-BD:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild" --check-stamp-file "D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_cpp-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

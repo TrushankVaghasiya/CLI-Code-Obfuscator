@@ -1,0 +1,3 @@
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_runtime-subbuild/CMakeFiles/tree_sitter_runtime-populate.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_runtime-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/tree_sitter_runtime-subbuild/CMakeFiles/ZERO_CHECK.dir

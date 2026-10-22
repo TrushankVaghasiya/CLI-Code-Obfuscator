@@ -1,0 +1,16 @@
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/CMakeFiles/obfuscator.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/CMakeFiles/Experimental.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/CMakeFiles/Nightly.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/CMakeFiles/Continuous.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/CMakeFiles/NightlyMemoryCheck.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/CMakeFiles/tree_sitter_runtime_lib.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/CMakeFiles/tree_sitter_cpp_grammar.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/CMakeFiles/RUN_TESTS.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/CMakeFiles/ALL_BUILD.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/CMakeFiles/ZERO_CHECK.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/cli11-build/CMakeFiles/RUN_TESTS.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/cli11-build/CMakeFiles/ALL_BUILD.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/cli11-build/fuzz/CMakeFiles/RUN_TESTS.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/cli11-build/src/CMakeFiles/CLI11.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/cli11-build/src/CMakeFiles/RUN_TESTS.dir
+D:/TIRTH/OOPS Project/CLI-Code-Obfuscator/_b/_deps/cli11-build/single-include/CMakeFiles/RUN_TESTS.dir

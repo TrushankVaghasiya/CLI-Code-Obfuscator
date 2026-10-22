@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\App.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\Config.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\ConfigFwd.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\Error.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\Formatter.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\FormatterFwd.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\Macros.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\Option.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\Split.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\StringTools.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\TypeTools.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\Validators.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\Version.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\Encoding.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\Argv.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\CLI.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\Timer.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\impl\App_inl.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\impl\Config_inl.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\impl\Formatter_inl.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\impl\Option_inl.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\impl\Split_inl.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\impl\StringTools_inl.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\impl\Validators_inl.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\impl\Encoding_inl.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\_deps\cli11-src\include\CLI\impl\Argv_inl.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{48BBB95E-5B4B-3959-86A3-62E440003731}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\CMakeFiles\f29c97be317474e22a2c12e1cb793128\Nightly.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\TIRTH\OOPS Project\CLI-Code-Obfuscator\_b\CMakeFiles\Nightly" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0C89385C-7D7E-37D1-AF88-CFAC793063B3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
